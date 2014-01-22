@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 
-		<title> SmartAdmin </title>
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<title>Rmon</title>
+		<meta name="description" content="Simple monitoring for RabbitMQ">
+		<meta name="author" content="Mike Hadlow">
 
 		<!-- Use the correct meta names below for your web application
 			 Ref: http://davidbcalhoun.com/2010/viewport-metatag 
@@ -24,14 +24,6 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.css">
 		<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-skins.css">
 
-		<!-- SmartAdmin RTL Support is under construction
-		<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-rtl.css"> -->
-
-		<!-- We recommend you use "your_style.css" to override SmartAdmin
-		specific styles this will also ensure you retrain your customization
-		with each SmartAdmin update.
-		<link rel="stylesheet" type="text/css" media="screen" href="css/demo.css"> -->
-
 		<!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
 		<link rel="stylesheet" type="text/css" media="screen" href="css/demo.css">
 
@@ -43,7 +35,7 @@
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
 
 	</head>
-	<body class="">
+	<body class="fixed-header fixed-ribbon">
 		<!-- possible classes: minified, fixed-ribbon, fixed-header, fixed-width-->
 
 		<!-- HEADER -->
@@ -51,7 +43,7 @@
 			<div id="logo-group">
 
 				<!-- PLACE YOUR LOGO HERE -->
-				<span id="logo"> <img src="img/logo.png" alt="SmartAdmin"> </span>
+				<span id="logo"> Rmon </span>
 				<!-- END LOGO PLACEHOLDER -->
 
 				<!-- Note: The activity badge color changes when clicked and resets the number to 0
@@ -98,33 +90,6 @@
 				<!-- END AJAX-DROPDOWN -->
 			</div>
 
-			<!-- projects dropdown -->
-			<div id="project-context">
-
-				<span class="label">Projects:</span>
-				<span id="project-selector" class="popover-trigger-element dropdown-toggle" data-toggle="dropdown">Recent projects <i class="fa fa-angle-down"></i></span>
-
-				<!-- Suggestion: populate this list with fetch and push technique -->
-				<ul class="dropdown-menu">
-					<li>
-						<a href="javascript:void(0);">Online e-merchant management system - attaching integration with the iOS</a>
-					</li>
-					<li>
-						<a href="javascript:void(0);">Notes on pipeline upgradee</a>
-					</li>
-					<li>
-						<a href="javascript:void(0);">Assesment Report for merchant account</a>
-					</li>
-					<li class="divider"></li>
-					<li>
-						<a href="javascript:void(0);"><i class="fa fa-power-off"></i> Clear</a>
-					</li>
-				</ul>
-				<!-- end dropdown-menu-->
-
-			</div>
-			<!-- end projects dropdown -->
-
 			<!-- pulled right: nav area -->
 			<div class="pull-right">
 
@@ -156,25 +121,6 @@
 				</form>
 				<!-- end input: search field -->
 
-				<!-- multiple lang dropdown : find all flags in the image folder -->
-				<ul class="header-dropdown-list hidden-xs">
-					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <img alt="" src="img/flags/us.png"> <span> US </span> <i class="fa fa-angle-down"></i> </a>
-						<ul class="dropdown-menu pull-right">
-							<li class="active">
-								<a href="javascript:void(0);"><img alt="" src="img/flags/us.png"> US</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);"><img alt="" src="img/flags/es.png"> Spanish</a>
-							</li>
-							<li>
-								<a href="javascript:void(0);"><img alt="" src="img/flags/de.png"> German</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<!-- end multiple lang -->
-
 			</div>
 			<!-- end pulled right: nav area -->
 
@@ -188,9 +134,7 @@
 			<!-- User info -->
 			<div class="login-info">
 				<span> <!-- User image size is adjusted inside CSS, it should stay as it --> 
-					<img src="img/avatars/sunny.png" alt="me" class="online" /> 
-					<a href="javascript:void(0);" id="show-shortcut">
-						john.doe <i class="fa fa-angle-down"></i>
+					<i class="fa fa-user"></i> <a href="javascript:void(0);" id="show-shortcut"> Mike Hadlow <i class="fa fa-angle-down"></i>
 					</a> 
 				</span>
 			</div>
@@ -211,6 +155,10 @@
 				<ul>
 					<li class="">
 						<a href="ajax/dashboard.html" title="Dashboard"><i class="fa fa-lg fa-fw fa-home"></i> <span class="menu-item-parent">Dashboard</span></a>
+					</li>
+					<li>
+						<a href="ajax/brokers.html" title="Brokers"><i class="fa fa-lg fa-fw fa-list"><em>4</em></i> <span class="meunu-item-parent">
+						Brokers</span></a>
 					</li>
 					<li>
 						<a href="ajax/inbox.html"><i class="fa fa-lg fa-fw fa-inbox"></i> <span class="menu-item-parent">Inbox</span><span class="badge pull-right inbox-badge">14</span></a>
@@ -359,7 +307,7 @@
 						</ul>
 					</li>
 					<li>
-						<a href="ajax/calendar.html"><i class="fa fa-lg fa-fw fa-calendar"><em>3</em></i> <span class="menu-item-parent">Calendar</span></a>
+						<a href="ajax/calendar.html"><i class="fa fa-lg fa-fw fa-calendar"><em>21</em></i> <span class="menu-item-parent">Calendar</span></a>
 					</li>
 					<li>
 						<a href="ajax/widgets.html"><i class="fa fa-lg fa-fw fa-list-alt"></i> <span class="menu-item-parent">Widgets</span></a>
