@@ -13,3 +13,6 @@ To start:
 	nginx.exe                     5828 Console                    1      6,200 K
 
 4. Navigate to http://localhost:8008
+
+To reload conf/nginx.conf
+1. >nginx -s reload
