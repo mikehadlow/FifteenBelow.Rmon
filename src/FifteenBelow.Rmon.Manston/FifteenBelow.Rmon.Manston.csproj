@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Compile Include="Program.cs" />
-  </ItemGroup>
+  <PropertyGroup>
+    <ProjectGuid>{43EA7279-0612-4D82-9239-229A77FD2022}</ProjectGuid>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
   </ItemGroup>
   <Target Name="Build">
   </Target>

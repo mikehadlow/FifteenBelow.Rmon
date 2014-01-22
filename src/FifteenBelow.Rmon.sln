@@ -1,10 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FifteenBelow.Rmon.Tangmere", "FifteenBelow.Rmon.Tangmere\FifteenBelow.Rmon.Tangmere.csproj", "{6E43B201-74DC-4821-84C7-39BC7612485A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{F9B3120E-F56F-47E7-82A9-EF4D72BD1997}"
 	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
 		Version.cs = Version.cs
 	EndProjectSection
 EndProject
