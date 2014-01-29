@@ -16,3 +16,8 @@ To start:
 
 To reload conf/nginx.conf
 1. >nginx -s reload
+
+==Template
+
+Uses SmartAdmin
+https://wrapbootstrap.com/theme/smartadmin-responsive-webapp-WB0573SK0

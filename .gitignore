@@ -21,11 +21,10 @@ TestResult.xml
 
 # Ignore NuGet package files.
 *.nupkg
-Package/EasyNetQ/lib
-Package/EasyNetQ.Management.Client/lib
+Package
 
 *.userprefs
 test-results
 
 # nginx log files
-src\FifteenBelow.Rmon.Manston\logs
+src/FifteenBelow.Rmon.Manston/logs

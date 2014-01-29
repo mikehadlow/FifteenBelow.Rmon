@@ -4,10 +4,11 @@
     <ProjectGuid>{43EA7279-0612-4D82-9239-229A77FD2022}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="conf\nginx.conf" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
+    <Content Include="html\index.html" />
   </ItemGroup>
   <Target Name="Build">
   </Target>
