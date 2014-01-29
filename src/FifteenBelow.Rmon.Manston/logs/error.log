@@ -1,1 +1,3 @@
 2014/01/22 08:40:54 [notice] 856#7124: signal process started
+2014/01/29 10:54:50 [notice] 4440#5692: signal process started
+2014/01/29 10:57:27 [error] 4072#2392: *27 CreateFile() "F:\Source\FifteenBelow.Rmon\src\FifteenBelow.Rmon.Manston/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8008"

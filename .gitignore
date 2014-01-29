@@ -28,3 +28,4 @@ test-results
 
 # nginx log files
 src/FifteenBelow.Rmon.Manston/logs
+src/packages

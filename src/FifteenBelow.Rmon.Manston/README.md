@@ -13,6 +13,7 @@ To start:
 	nginx.exe                     5828 Console                    1      6,200 K
 
 4. Navigate to http://localhost:8008
+5. The api is provided by Hendon. Start *.Hendon.exe on http://localhost:8888
 
 To reload conf/nginx.conf
 1. >nginx -s reload
